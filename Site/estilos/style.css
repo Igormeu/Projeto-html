@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    color: #000;
+    background-color: #a8f2ff;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 1px 1px 1px #000;
+}
+
+#titulo{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.text{
+    font-size: 0.8rem;
+    color: aliceblue;
+    font-weight: 400;
+}
